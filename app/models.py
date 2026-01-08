@@ -1,3 +1,5 @@
+from app import db
+
 class Rental(db.Model):
     __tablename__ = "rental"
 
