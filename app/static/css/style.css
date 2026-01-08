@@ -1,0 +1,95 @@
+/* -------- GLOBAL -------- */
+body {
+    background-color: #eaf4ff; /* single light blue */
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* -------- NAVBAR -------- */
+.navbar {
+    background-color: #eaf4ff;
+    border-bottom: 1px solid #c9ddf3;
+}
+
+.navbar-brand,
+.navbar .nav-link {
+    color: #0d47a1 !important;
+    font-weight: 600;
+}
+
+.navbar .nav-link:hover {
+    text-decoration: underline;
+}
+
+/* -------- CONTAINER -------- */
+.container {
+    flex: 1;
+}
+
+/* -------- HEADINGS -------- */
+h1, h2, h3 {
+    color: #0d47a1;
+    font-weight: 600;
+}
+
+/* -------- CARDS -------- */
+.card {
+    border-radius: 10px;
+    background-color: #ffffff;
+    border: 1px solid #c9ddf3;
+}
+
+/* -------- TABLE -------- */
+.table {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.table thead {
+    background-color: #eaf4ff;
+}
+
+.table th {
+    color: #0d47a1;
+}
+
+.table tbody tr:hover {
+    background-color: #f3f9ff;
+}
+
+/* -------- BUTTONS -------- */
+.btn-primary,
+.btn-success {
+    background-color: #eaf4ff;
+    border: 1px solid #c9ddf3;
+    color: #0d47a1;
+}
+
+.btn-primary:hover,
+.btn-success:hover {
+    background-color: #d8eaff;
+}
+
+/* -------- FORMS -------- */
+.form-control {
+    border-radius: 6px;
+    border: 1px solid #c9ddf3;
+}
+
+.form-control:focus {
+    border-color: #90caf9;
+    box-shadow: none;
+}
+
+/* -------- FOOTER -------- */
+footer {
+    background-color: #eaf4ff;
+    color: #0d47a1;
+    text-align: center;
+    padding: 15px;
+    margin-top: auto;
+    border-top: 1px solid #c9ddf3;
+}
